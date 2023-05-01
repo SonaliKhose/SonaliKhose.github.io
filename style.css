@@ -1,0 +1,186 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+body{
+  background: linear-gradient(90deg, #FDFDFD 32%,   #DCDCDC 100%);
+}
+a{
+  text-decoration: none;
+}
+#nav-menu{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px 100px;
+ background-color: #DCDCDC;
+ 
+}
+.nav-logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+.nav-logo::first-letter{
+  font-size: 40px;
+  border: 2px solid blue;
+  border-right: transparent;
+  padding-left: 5px;
+  color: #fd4766;
+}
+.nav-items ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+  
+}
+.nav-items ul li a{
+  color:#1d1d24;
+  position: relative;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.nav-items ul li a:hover{
+  color: #fd4766;
+}
+.nav-items ul li a::after{
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  position: absolute;
+  height: 3px;
+  background: #fd4766;
+  transition: .3s;
+
+}
+.nav-items ul li a:hover::after{
+  width: 100px;
+}
+.nav-link-resume{
+color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+background: #fd4766;
+padding: 10px 30px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+border: 2px solid #fd4766;
+}
+ .nav-link-resume:hover{
+background: transparent;
+color:#fd4766 ;
+} 
+
+/* Home Section */
+#home{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(204,239,255,1) 100%);
+}
+.container{
+  position: absolute;
+  top:35%;
+  left:8%;
+  
+}
+.container h1{
+  color:#1f1f25;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.container h1 span{
+  color: #fd4766;
+}
+#home p{
+  color: #1f1f25;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+#hire-me{
+  color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+background: blue;
+padding: 10px 30px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+border: 2px solid blue;
+}
+#hire-me:hover{
+  background: transparent;
+  color:blue ;
+  } 
+#resume-link-1{
+  color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+background: #fd4766;
+padding: 10px 30px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+border: 2px solid #fd4766;
+}
+#resume-link-1:hover{
+  background: transparent;
+  color:#fd4766 ;
+  } 
+  .home-img img{
+    display: block;
+    width:120%;
+    height:300px;
+    border-radius: 15px;
+   
+  }
+  .home-img{
+    width:30%;
+    height:80%;
+    position: absolute;
+    bottom: -60px;
+    right: 200px;
+
+  }
+  
+
+
+  /* About section */
+ #about{
+height:400px;
+width:100%;
+border:1px solid blue;
+margin-top: 600px;
+display: flex;
+justify-content: space-between;
+ }
+ #about div{
+  height: 100%;
+  width:50%;
+  border: 1px solid red;
+  padding-left: 10px;
+  padding-right: 10px;
+
+ }
+  .about-img{
+  height: 300px;
+  width: 450px;
+  }
+ 
+ .about-img img{
+margin-left: 250px;
+margin-top: 50px;
+height: auto;
+width:300px;
+border: 2px solid white;
+border-radius: 50%;
+ } 
+  
