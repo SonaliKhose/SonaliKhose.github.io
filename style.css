@@ -65,7 +65,7 @@ a{
 .nav-items ul li a:hover::after{
   width: 100px;
 }
-.nav-link-resume{
+.nav-link.resume{
 color: #fff;
 font-size: 16px;
 text-transform: uppercase;
@@ -77,7 +77,7 @@ font-weight: 500;
 transition: all .4s ease-in-out;
 border: 2px solid #fd4766;
 }
- .nav-link-resume:hover{
+ .nav-link.resume:hover{
 background: transparent;
 color:#fd4766 ;
 } 
@@ -395,3 +395,6 @@ margin-left: 180px;
       height: 100%;
       width: 100%;
     }
+
+    /* Contact section */
+    
