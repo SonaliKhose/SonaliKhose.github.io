@@ -364,14 +364,14 @@ margin-left: 180px;
       border:1px solid blue;
       margin-top: 50px;
     }
-    .calendar{
+    #react-activity-calendar{
       text-align: center;
       margin-top: 20px;
       border: 1px solid red;
      
     }
     
-    .calendar img{
+    #react-activity-calendar img{
       height:250px;
       width:auto;
     }
