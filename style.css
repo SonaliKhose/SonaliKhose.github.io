@@ -8,6 +8,9 @@
 body{
   background: linear-gradient(90deg, #FDFDFD 32%,   #DCDCDC 100%);
 }
+
+
+
 /* navbar section */
 a{
   text-decoration: none;
@@ -90,9 +93,7 @@ color:#fd4766 ;
 
 }
 .container{
-  /* position: absolute; */
-  /* top:35%;
-  left:8%; */
+
   height: 100%;
   width: 50%;
   border: 1px solid blue;
@@ -159,13 +160,12 @@ border: 2px solid #fd4766;
   .home-img{
    
     border: 1px solid blue;
-    /* position: absolute;
-    bottom: -60px;
-    right: 200px; */
+ 
     height: 100%;
     width: 50%;
    } 
-  
+
+
 
 
   /* About section */
@@ -198,22 +198,16 @@ justify-content: space-between;
   }
  
  .about-img img{
-/* 
 
-height: auto;
-width:300px;
-
- */
  margin-top: 15px;
  border: 2px solid black;
  border-radius: 50%;
 height: auto;
-width: 350px;
+width: 300px;
 margin-left: 180px;
  } 
  .container1{
-  /* text-align: center;
-  align-items: center; */
+ 
   font-size: 20px;
   font-weight: 620;
  }
@@ -222,9 +216,6 @@ margin-left: 180px;
   margin-top: 100px;
  }
  .container1 p{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
  
   display: block;
   margin-block-start: 1em;
@@ -232,4 +223,175 @@ margin-left: 180px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
  }
+
+
+
+ /* Skills section */
+
+ .container2{
+  height:auto;
+  border: 1px solid blue;
+  margin-top: 50px;
+  display: grid;
+  gap:10px;
+  grid-template-columns: repeat(4,1fr);
+ }
+ .container2 div{
+  border: 1px solid red;
+ }
+ .skills-card{
+  text-align: center;
+ }
+
+.skills-card img{
+  background-color: #e9eaec;
+  border-radius: 5px;
+  box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+  height: auto;
+  padding: 4%;
+  width: 35%;
+  transition: transform 0.2s ease-in-out;
+ }
+ .skills-card img:hover{
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
   
+ }
+.skills-card h3{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #d9b60e;
+}
+
+/* Project section */
+.container3{
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  border: 1px solid blue;
+  display: grid;
+  gap: 50px;
+  row-gap: 30px;
+  grid-template-columns:repeat(2,1fr)
+}
+.container3 div{
+  border: 1px solid red;
+  text-align: start;
+ width:450px;
+ padding: 5px 5px;
+  
+}
+.project-card{
+  margin-left: 150px;
+  width: auto;
+  padding: 10px 10px;
+  -webkit-padding-start: 10px;
+ height: 500px;
+  box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+   transition: transform 0.2s ease-in-out;
+}
+.project-card:hover{
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  
+ }
+.project-card h3{
+  color: #859901;
+  font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+  text-align: start;
+  
+}
+.project-card img{
+  height: 50%;
+  width:100%;
+  margin-bottom: 10px;
+  
+}
+.project-tech-stack{
+  color: #b57615;
+    font-size: 20px;
+}
+.project-tech-stack span{
+  color: black;
+}
+.project-card a{
+  margin-left: 40px;
+ 
+}
+.project-github-link{
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: blue;
+  padding: 10px 30px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .4s ease-in-out;
+  border: 2px solid blue;
+}
+
+.project-github-link:hover{
+  background: transparent;
+  color:blue ;
+  } 
+  .project-deployed-link{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #fd4766;
+    padding: 10px 30px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    border: 2px solid #fd4766;
+  }
+  
+  .project-deployed-link:hover{
+    background: transparent;
+    color:#fd4766 ;
+    } 
+
+
+    /* Github Section */
+    .container4{
+      height: auto;
+      width: 100%;
+      border:1px solid blue;
+      margin-top: 50px;
+    }
+    .calendar{
+      text-align: center;
+      margin-top: 20px;
+      border: 1px solid red;
+     
+    }
+    
+    .calendar img{
+      height:250px;
+      width:auto;
+    }
+    .stats{
+      margin-top: 20px;
+      border: 1px solid red;
+      height:auto;
+      display: grid;
+      gap:10px;
+      grid-template-columns: repeat(3 , 1fr);
+    }
+    .stats div{
+      margin-left: 50px;
+      border: 1px solid blue;
+      height: 100%;
+      width:auto;
+      padding: 10px;
+     
+    }
+    .github img{
+      height: 100%;
+      width: 100%;
+    }
