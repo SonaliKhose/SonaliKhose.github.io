@@ -65,7 +65,7 @@ a{
 .nav-items ul li a:hover::after{
   width: 100px;
 }
-.nav-link-resume{
+#resume-button{
 color: #fff;
 font-size: 16px;
 text-transform: uppercase;
@@ -77,7 +77,7 @@ font-weight: 500;
 transition: all .4s ease-in-out;
 border: 2px solid #fd4766;
 }
- .nav-link-resume:hover{
+#resume-button:hover{
 background: transparent;
 color:#fd4766 ;
 } 
@@ -149,7 +149,7 @@ border: 2px solid #fd4766;
   background: transparent;
   color:#fd4766 ;
   } 
-  .home-img img{
+  .about-img img{
     display: block;
     width:90%;
     height:350px;
@@ -157,14 +157,29 @@ border: 2px solid #fd4766;
    margin-top: 60px;
    margin-left: 20px;
   }
-  .home-img{
+  .about-img{
    
     border: 1px solid blue;
  
     height: 100%;
     width: 50%;
    } 
-
+   #resume-link-2{
+    color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #fd4766;
+  padding: 10px 30px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .4s ease-in-out;
+  border: 2px solid #fd4766;
+  }
+  #resume-link-2:hover{
+    background: transparent;
+    color:#fd4766 ;
+    } 
 
 
 
@@ -191,13 +206,13 @@ justify-content: space-between;
   padding-right: 10px;
 
  }
-  .about-img{
+  .home-img{
   height: 300px;
   width: 450px;
   align-items: center;
   }
  
- .about-img img{
+ .home-img img{
 
  margin-top: 15px;
  border: 2px solid black;
@@ -364,14 +379,14 @@ margin-left: 180px;
       border:1px solid blue;
       margin-top: 50px;
     }
-    #react-activity-calendar{
+    .react-activity-calendar{
       text-align: center;
       margin-top: 20px;
       border: 1px solid red;
      
     }
     
-    #react-activity-calendar img{
+    .react-activity-calendar img{
       height:250px;
       width:auto;
     }
