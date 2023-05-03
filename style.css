@@ -65,7 +65,7 @@ a{
 .nav-items ul li a:hover::after{
   width: 100px;
 }
-#resume-button{
+#resume-button-1{
 color: #fff;
 font-size: 16px;
 text-transform: uppercase;
@@ -77,7 +77,7 @@ font-weight: 500;
 transition: all .4s ease-in-out;
 border: 2px solid #fd4766;
 }
-#resume-button:hover{
+#resume-button-1:hover{
 background: transparent;
 color:#fd4766 ;
 } 
