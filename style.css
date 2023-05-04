@@ -190,7 +190,7 @@ border: 2px solid #fd4766;
     color: blue;
     margin-top: 70px;
    }
- #about{
+ #about1{
 height:400px;
 width:100%;
 border:1px solid blue;
@@ -198,7 +198,7 @@ margin-top: 40px;
 display: flex;
 justify-content: space-between;
  }
- #about div{
+ #about1 div{
   height: 100%;
   width:50%;
   border: 1px solid red;
