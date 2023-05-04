@@ -12,6 +12,7 @@ body{
 
 
 /* navbar section */
+
 a{
   text-decoration: none;
 }
@@ -83,10 +84,60 @@ color:#fd4766 ;
 } 
 
 /* Home Section */
+
+@media only screen and (min-width: 711px) and (max-width: 1090px) {
+ 
+ #home {
+
+    display: flex;
+    padding: 10px 0%;
+    flex-direction: column-reverse;
+     text-align: center;
+  }
+  #home div{
+    margin-top: 50px;
+    width:auto;
+    height:auto;
+  }
+  .about-img img{
+    display: block;
+    width:90%;
+    height:auto;
+    border-radius: 15px;
+   margin-top: 60px;
+   margin-left: 20px;
+   } 
+}
+
+
+
+ @media only screen and (min-width: 0px) and (max-width: 710px) {
+
+  #home {
+
+    display: flex;
+    padding: 10px 0%;
+    flex-direction: column-reverse;
+   
+  }
+  #home div{
+    margin-top: 50px;
+    width:auto;
+    height:auto;
+  }
+  .about-img img{
+    display: block;
+    width:auto;
+    height:auto;
+    border-radius: 15px;
+   margin-top: 60px;
+   margin-left: 20px;
+   } 
+}  
 #home{
  
-  border: 1px solid red;
-  height:500px;
+  /* border: 1px solid red; */
+  height:auto;
   margin-top: 50px;
   display: flex;
   margin-bottom: 100px;
@@ -96,7 +147,7 @@ color:#fd4766 ;
 
   height: 100%;
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   text-align: center;
   
   
@@ -158,8 +209,8 @@ border: 2px solid #fd4766;
    margin-left: 20px;
   }
   .about-img{
-   
-    border: 1px solid blue;
+/*    
+    border: 1px solid blue; */
  
     height: 100%;
     width: 50%;
@@ -184,6 +235,8 @@ border: 2px solid #fd4766;
 
 
   /* About section */
+
+ 
   h1{
     text-align: center;
     font-size: 40px;
@@ -191,24 +244,24 @@ border: 2px solid #fd4766;
     margin-top: 70px;
    }
  #about1{
-height:400px;
+height:auto;
 width:100%;
-border:1px solid blue;
+/* border:1px solid blue; */
 margin-top: 40px;
 display: flex;
 justify-content: space-between;
  }
  #about1 div{
-  height: 100%;
-  width:50%;
-  border: 1px solid red;
+  height: auto;
+  width:auto;
+  /* border: 1px solid red; */
   padding-left: 10px;
   padding-right: 10px;
 
  }
   .home-img1{
   height: 300px;
-  width: 450px;
+  width: auto;
   align-items: center;
   }
  
@@ -220,9 +273,10 @@ justify-content: space-between;
 height: auto;
 width: 300px;
 margin-left: 180px;
+
  } 
  .container1{
- 
+ margin-left: 50px;
   font-size: 20px;
   font-weight: 620;
  }
@@ -239,21 +293,86 @@ margin-left: 180px;
   margin-inline-end: 0px;
  }
 
+ @media only screen and (min-width: 711px) and (max-width: 1090px) {
 
+  /* medium screen */
+      #about1{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        
+      }
+      #about1 div{
+        width:100%;
+        height: auto;
+        margin-bottom: 50px;
+        text-align: justify;
+        
+      }
+      .home-img1 img{
+        width:300px;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid ;
+        margin-top: 3%;
+        margin-bottom: 2%;
+       
+        } 
+     
+  
+    }
+  
+  
+    @media only screen and (min-width: 0px) and (max-width: 710px) {
+  
+     /* small screen */
+     #about1{
+      display: flex;
+      flex-direction: column;
+      height:auto;
+      
+    }
+    #about1 div{
+     
+      margin-bottom: 50px;
+    
+      
+    }
+    .home-img1{
+      width:80%
+    }
+    .container1{
+      margin-left: 0%;
+    }
+    .home-img1 img{
+      width: 300px;;
+      height: auto;
+      border-radius: 50%;
+      border: 2px solid ;
+      margin-top: 3%;
+      margin-bottom: 2%;
+     margin-left: 0%;
+    }
+   
+  }
+  
+  
 
  /* Skills section */
 
+ 
+
  .container2{
   height:auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-top: 50px;
   display: grid;
   gap:10px;
   grid-template-columns: repeat(4,1fr);
  }
- .container2 div{
+ /* .container2 div{
   border: 1px solid red;
- }
+ } */
  .skills-card{
   text-align: center;
  }
@@ -281,19 +400,34 @@ margin-left: 180px;
   color: #d9b60e;
 }
 
+    
+    @media only screen and (min-width: 0px) and (max-width: 1090px) {
+  
+     /* small and medium screen */
+     .container2{
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: auto;
+      gap:auto;
+   }
+  
+    }
 /* Project section */
+
+
 .container3{
   margin-top: 50px;
   height: auto;
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: grid;
   gap: 50px;
   row-gap: 30px;
   grid-template-columns:repeat(2,1fr)
 }
 .container3 div{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: start;
  width:450px;
  padding: 5px 5px;
@@ -346,7 +480,7 @@ margin-left: 180px;
   display: inline-block;
   font-weight: 500;
   transition: all .4s ease-in-out;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .project-github-link:hover{
@@ -371,18 +505,40 @@ margin-left: 180px;
     color:#fd4766 ;
     } 
 
+    @media only screen and (min-width: 0px) and (max-width: 1090px) {
+  
+      /* small and medium screen */
+     .container3{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   
+     }
+     .container3 div{
+     margin-top: 40px;
+      text-align: start;
+     width:auto;
+     padding: 20px 20px;
+      margin-left: 0%;
+      height: auto;
+   
+    }
+   
+     }
+     
 
     /* Github Section */
+
+  
     .container4{
       height: auto;
       width: 100%;
-      border:1px solid blue;
+      /* border:1px solid blue; */
       margin-top: 50px;
     }
     .react-activity-calendar{
       text-align: center;
       margin-top: 20px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
      
     }
     
@@ -392,15 +548,15 @@ margin-left: 180px;
     }
     .stats{
       margin-top: 20px;
-      border: 1px solid red;
-      height:auto;
+      /* border: 1px solid red;
+      height:auto; */
       display: grid;
       gap:10px;
       grid-template-columns: repeat(3 , 1fr);
     }
     .stats div{
       margin-left: 50px;
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
       height: 100%;
       width:auto;
       padding: 10px;
@@ -411,13 +567,41 @@ margin-left: 180px;
       width: 100%;
     }
 
-    /* Contact section */
+    @media only screen and (min-width: 0px) and (max-width: 1090px) {
+  
+      /* small and medium screen */
+      .stats{
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        height:auto;
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(1 , 1fr);
+      }
+      .stats div{
+        margin-left: 10px;
+        /* border: 1px solid blue; */
+        height: auto;
+        width:auto;
+        padding: 10px;
+       
+      }
+      .react-activity-calendar img{
+        height:250px;
+        width:auto;
+      }
+   
+     }
+
+ /* Contact section */
+
+ 
 
 .container5{
   margin-top: 50px;
 height:500px;
 width: 100%;
-border:1px solid blue;
+/* border:1px solid blue; */
 background-color: #E0DDD8;
 
 }
@@ -426,16 +610,13 @@ background-color: #E0DDD8;
 .row{
 height: 100%;
 width:100%;
-border: 1px solid red;
+/* border: 1px solid red; */
 display: grid;
 grid-template-columns: repeat(2,1fr);
 
 gap:20px;
 }
-/* .row div{
-  border: 1px solid black;
-  
-} */
+
 form{
   margin-left: 180px;
   margin-top: 50px;
@@ -445,7 +626,7 @@ form{
    transition: transform 0.2s ease-in-out;
   padding: 30px;
   width: 400px;
-  border:1px solid red;
+  /* border:1px solid red; */
   background-color:white;
 border: 5px solid white;
 }
@@ -471,7 +652,7 @@ form button:hover{
   } 
 form input{
   font-size: 20px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 7px 10px;
 }
 .contact-info img{
@@ -498,3 +679,43 @@ form input{
 .nothing a,span{
   color:black
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1090px) {
+  
+  /* small and medium screen */
+  #nothing {
+  margin-left: 180px;
+  margin-top: 50px;
+  height: auto;
+  text-align: start;
+  color: black;
+  
+  padding: 30px;
+  width: 450px;
+ 
+ 
+}
+  .row{
+    height: 100%;
+    width:100%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    gap:10px;
+    }
+
+    form{
+      
+      margin-top: 150px;
+      height: auto;
+      text-align: center;
+      box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+       transition: transform 0.2s ease-in-out;
+      padding: 0px;
+      width: auto;
+      /* border:1px solid red; */
+      background-color:white;
+    border: 5px solid white;
+    }
+ }
