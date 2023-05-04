@@ -133,7 +133,7 @@ border: 2px solid blue;
   background: transparent;
   color:blue ;
   } 
-#resume-link-1{
+#resume-button-2{
   color: #fff;
 font-size: 16px;
 text-transform: uppercase;
@@ -145,7 +145,7 @@ font-weight: 500;
 transition: all .4s ease-in-out;
 border: 2px solid #fd4766;
 }
-#resume-link-1:hover{
+#resume-button-2:hover{
   background: transparent;
   color:#fd4766 ;
   } 
@@ -164,7 +164,7 @@ border: 2px solid #fd4766;
     height: 100%;
     width: 50%;
    } 
-   #resume-link-2{
+   #resume-button-2{
     color: #fff;
   font-size: 16px;
   text-transform: uppercase;
