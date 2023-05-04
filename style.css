@@ -206,13 +206,13 @@ justify-content: space-between;
   padding-right: 10px;
 
  }
-  .home-img{
+  .home-img1{
   height: 300px;
   width: 450px;
   align-items: center;
   }
  
- .home-img img{
+ .home-img1 img{
 
  margin-top: 15px;
  border: 2px solid black;
