@@ -24,7 +24,7 @@ function Hero() {
         >
 
           <span className="inline-block mb-5 px-4 py-1 text-[11px] tracking-widest bg-white/5 text-[#22D3EE] border border-[#22D3EE]/20 rounded-full">
-            2+ Years • Full Stack Developer
+            2+ Years • Software Engineer
           </span>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[1.05] text-[#E5E7EB] tracking-tight">
